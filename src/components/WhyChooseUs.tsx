@@ -2,7 +2,7 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
-const musicSchoolContent = [
+const poojaListContent = [
   {
     title: "Kaal Sarp Dosh Puja",
     description:
@@ -43,7 +43,7 @@ const musicSchoolContent = [
 function WhyChooseUs() {
   return (
     <div>
-      <StickyScroll content={musicSchoolContent} />
+      <StickyScroll content={poojaListContent} />
     </div>
   );
 }
