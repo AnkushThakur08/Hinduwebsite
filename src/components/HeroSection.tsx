@@ -32,9 +32,11 @@ function HeroSection() {
           situated near the Brahmagiri mountain, from where the Godavari River originates.
         </p>
         <div className="mt-12">
-          <Link href={"/courses"}>
+          <Link href="tel:+1234567890">
             <Button borderRadius="1.75rem" className="bg-white dark:bg-orange-500 text-black dark:text-white border-transparent">
-              Call Now
+              <Link href="tel:+1234567890" className="bg-white dark:bg-orange-500 text-black dark:text-white">
+                Call Me
+              </Link>
             </Button>
           </Link>
         </div>
