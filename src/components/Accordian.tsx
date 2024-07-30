@@ -6,7 +6,7 @@ const Accordian = () => {
     <div className="py-12 bg-white">
       <div className="text-center">
         <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">Frequent Asked Question</h2>
-        <p className="mt-6 text-xl leading-8 tracking-tight text-black sm:text-lg">FAQ's Question</p>
+        <p className="mt-6 text-xl leading-8 tracking-tight text-black sm:text-lg">{`FAQ's Question`}</p>
       </div>
 
       <div className="flex flex-col items-center">
