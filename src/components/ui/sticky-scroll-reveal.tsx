@@ -46,7 +46,7 @@ export const StickyScroll = ({
       ref={ref}
     >
       <div className="text-center mb-10">
-        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">Our Service</h2>
+        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">Our Services</h2>
       </div>
       <div className="flex justify-center gap-12">
         <div className="div relative flex items-start px-4">

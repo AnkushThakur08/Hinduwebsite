@@ -21,7 +21,7 @@ const poojaListContent = [
     src: "/courses/image-3.jpg",
   },
   {
-    title: "Rudra abhishek",
+    title: "Rudra Abhishek",
     description:
       "Rudra Abhishek is a Hindu ritual that is performed to worship Lord Shiva. The puja is mainly performed to get rid of negative energies and obstacles in life and to attain peace and prosperity.",
     src: "/courses/image-4.png",

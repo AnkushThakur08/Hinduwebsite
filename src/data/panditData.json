@@ -2,29 +2,29 @@
   "courses": [
     {
       "id": 1,
-      "title": "20+ Year of Experience",
-      "description": "Guruji is best pandit in Trimbakeshwar with 20+ years exp.",
+      "title": "featured_card_title_1",
+      "description": "featured_card_description_1",
       "isFeatured": true,
       "image": "/courses/guitar.jpg"
     },
     {
       "id": 2,
-      "title": "Free Online Consultation",
-      "description": "Free Online Kundali check are available",
+      "title": "featured_card_title_2",
+      "description": "featured_card_description_2",
       "isFeatured": true,
       "image": "/courses/piano.jpg"
     },
     {
       "id": 3,
-      "title": "Individual & Separate Puja",
-      "description": "Guruji Provide Individual & Separate Puja",
+      "title": "featured_card_title_3",
+      "description": "featured_card_description_3",
       "isFeatured": true,
       "image": "/courses/vocalist.jpg"
     },
     {
       "id": 4,
-      "title": "Puja as per Shastras",
-      "description": "Puja as per Shastras involves ritual worship with mantras, offerings, and aarti to invoke blessings from the deity.",
+      "title": "featured_card_title_4",
+      "description": "featured_card_description_4",
       "isFeatured": true,
       "image": "/courses/drumming.jpg"
     },
