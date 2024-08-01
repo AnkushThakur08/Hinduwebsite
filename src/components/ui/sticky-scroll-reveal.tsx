@@ -1,8 +1,9 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export const StickyScroll = ({
   content,
@@ -13,6 +14,8 @@ export const StickyScroll = ({
     src: string;
   }[];
 }) => {
+  const [client, setClient] = useState(false);
+  const { t } = useTranslation("common");
   const [activeCard, setActiveCard] = React.useState(0);
   const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
@@ -37,6 +40,14 @@ export const StickyScroll = ({
     "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
   ];
 
+  useEffect(() => {
+    setClient(true);
+  }, [client]);
+
+  if (!client) {
+    return null;
+  }
+
   return (
     <motion.div
       animate={{
@@ -46,7 +57,7 @@ export const StickyScroll = ({
       ref={ref}
     >
       <div className="text-center mb-10">
-        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">Our Services</h2>
+        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">{t("our_services")}</h2>
       </div>
       <div className="flex justify-center gap-12">
         <div className="div relative flex items-start px-4">
@@ -62,7 +73,7 @@ export const StickyScroll = ({
                   }}
                   className="text-2xl font-bold text-slate-100"
                 >
-                  {item.title}
+                  {t(item.title)}
                 </motion.h2>
                 <motion.p
                   initial={{
@@ -73,7 +84,7 @@ export const StickyScroll = ({
                   }}
                   className="text-kg text-slate-300 max-w-sm mt-10"
                 >
-                  {item.description}
+                  {t(item.description)}
                 </motion.p>
               </div>
             ))}
