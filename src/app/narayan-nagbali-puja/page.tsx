@@ -10,37 +10,42 @@ import React from "react";
 const KaalSarpPuja = () => {
   const words = [
     {
-      text: "Kaal",
+      text: "Narayan",
     },
     {
-      text: "Sarp",
+      text: "Nagabali",
     },
     {
-      text: "Dosh",
+      text: "Puja",
     },
     {
       text: ":",
     },
     {
-      text: "Astrological",
+      text: "Ancestral",
     },
     {
-      text: "Curse",
+      text: "Peace",
       className: "text-orange-500 dark:text-orange-500",
     },
     {
-      text: "Effect",
+      text: "&",
+      className: "text-orange-500 dark:text-orange-500",
+    },
+    {
+      text: "Prosperity",
       className: "text-orange-500 dark:text-orange-500",
     },
   ];
 
-  const header_title = "featured_content_title";
-  const header_info = "featured_content_info";
-  const img_url = "/courses/pandit.webp";
-  const img_alt = "kaal-sarp-dosh";
-  const description = "featured_content_description";
+  const header_title = "narayan_nagbali_puja";
+  const header_info = "narayan_nagbali_info";
+  const img_url = "/courses/narayan.webp";
+  const img_alt = "naryan-nagbali";
+  const description = "narayan_nagbali_description";
 
-  const sub_header_title = "sub_feature_contain_title";
+  const sub_header_title = "narayan_nagbali_benefits";
+
   return (
     <div>
       <BackgroundBoxes words={words} />
@@ -56,7 +61,6 @@ const KaalSarpPuja = () => {
       <WhyChooseUs />
       <FAQSection />
       <GuruJiTestimonials />
-      {/* <UpcomingWebinars /> */}
       <Footer />
     </div>
   );

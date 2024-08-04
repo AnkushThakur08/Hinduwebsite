@@ -28,10 +28,10 @@ function Navbar({ className }: { className?: string }) {
 
             <MenuItem setActive={setActive} active={active} item="Trimbakeshwar Puja List">
               <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/courses">Narayan nagbali puja</HoveredLink>
-                <HoveredLink href="/courses">Narayan nagbali puja</HoveredLink>
-                <HoveredLink href="/courses">Narayan nagbali puja</HoveredLink>
-                <HoveredLink href="/courses">Narayan nagbali puja</HoveredLink>
+                <HoveredLink href="/narayan-nagbali-puja">Narayan Nagbali Puja</HoveredLink>
+                <HoveredLink href="/courses">Pitra Dosh Puja</HoveredLink>
+                <HoveredLink href="/courses">Mahamrutunjay Jaap Puja</HoveredLink>
+                <HoveredLink href="/courses">Rudrabhishek Puja</HoveredLink>
               </div>
             </MenuItem>
 
