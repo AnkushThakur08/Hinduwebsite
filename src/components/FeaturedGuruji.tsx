@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import panditData from "@/data/panditData.json";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { useTranslation } from "react-i18next";
-
+import Header from "@/components/Header";
 interface IPandit {
   id: number;
   title: string;
@@ -31,12 +31,7 @@ const FeaturedGuruJi = () => {
 
   return (
     <div className="py-12 bg-white">
-      <div className="text-center">
-        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">
-          {t("featured_section_title")}
-        </h2>
-        <p className="mt-6 text-xl leading-8 tracking-tight text-black sm:text-lg">{t("featured_section_description")}</p>
-      </div>
+      <Header title="featured_section_title" info="featured_section_description" />
       <div className="mx-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredPandit.map((pandit: IPandit) => (
@@ -57,12 +52,5 @@ const FeaturedGuruJi = () => {
     </div>
   );
 };
-// export const getStaticProps: GetStaticProps = async ({ locale }) => {
-//   return {
-//     props: {
-//       ...(await serverSideTranslations(locale || "en", ["common"])),
-//     },
-//   };
-// };
 
 export default FeaturedGuruJi;

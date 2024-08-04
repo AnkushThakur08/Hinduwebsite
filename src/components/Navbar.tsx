@@ -22,6 +22,9 @@ function Navbar({ className }: { className?: string }) {
             <Link href={"/"}>
               <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
             </Link>
+            <Link href={"/kaal-sarp-puja"}>
+              <MenuItem setActive={setActive} active={active} item="Kaal Sarp Puja"></MenuItem>
+            </Link>
 
             <MenuItem setActive={setActive} active={active} item="Trimbakeshwar Puja List">
               <div className="flex flex-col space-y-4 text-sm">

@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import AccordionList from "./AccordianList";
 import { useTranslation } from "react-i18next";
+import Header from "@/components/Header";
+import CallMeButton from "@/components/Button";
 
 const FAQSection = () => {
   const [client, setClient] = useState(false);
@@ -17,13 +19,7 @@ const FAQSection = () => {
 
   return (
     <div className="py-12 bg-white">
-      <div className="text-center">
-        <h2 className="text-base text-2xl md:text-4xl text-orange-500 font-semibold tracking-wide uppercase">
-          {t("frequent_asked_question_title")}
-        </h2>
-        <p className="mt-6 text-xl leading-8 tracking-tight text-black sm:text-lg">{t("frequent_asked_question_description")}</p>
-      </div>
-
+      <Header title="frequent_asked_question_title" info="frequent_asked_question_description" />
       <div className="flex flex-col items-center">
         <AccordionList title={t("faq_1")}>
           <p>{t("faq_1_answer")}</p>
@@ -56,6 +52,8 @@ const FAQSection = () => {
         <AccordionList title={t("faq_8")}>
           <p>{t("faq_8_answer")}</p>
         </AccordionList>
+
+        <CallMeButton />
       </div>
     </div>
   );
