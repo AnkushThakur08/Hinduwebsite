@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const poojaListContent = [
@@ -9,7 +10,7 @@ const poojaListContent = [
   },
   {
     title: "our_service_title_2",
-    description: "our_service_description_2.",
+    description: "our_service_description_2",
     src: "/courses/image-2.jpg",
   },
   {
@@ -35,6 +36,15 @@ const poojaListContent = [
 ];
 
 function WhyChooseUs() {
+  const [client, setClient] = useState(false);
+
+  useEffect(() => {
+    setClient(true);
+  }, []);
+
+  if (!client) {
+    return null;
+  }
   return (
     <div>
       <StickyScroll content={poojaListContent} />

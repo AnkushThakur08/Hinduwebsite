@@ -30,7 +30,7 @@ function HeroSection() {
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
           {t("temple_name")}
         </motion.p>
-        <p className="mt-4 font-normal text-base md:text-lg text-whites max-w-lg ">{t("temple_description")}.</p>
+        <p className="mt-4 font-normal text-base md:text-lg text-white max-w-lg">{t("temple_description")}.</p>
         <div className="mt-12">
           <Link href="tel:+1234567890">
             <Button borderRadius="1.75rem" className="bg-white dark:bg-orange-500 text-black dark:text-white border-transparent">
@@ -40,9 +40,9 @@ function HeroSection() {
             </Button>
           </Link>
 
-          <button onClick={toggleLanguage} className="px-4 py-2 bg-blue-500 rounded">
+          {/* <button onClick={toggleLanguage} className="px-4 py-2 bg-blue-500 rounded">
             {t("toggle_language")}
-          </button>
+          </button> */}
         </div>
       </motion.div>
     </ImagesSlider>

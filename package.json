@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.109.2",
+    "@react-three/fiber": "^8.16.8",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.8",
     "i18next": "^23.12.2",
@@ -21,7 +23,9 @@
     "react-dom": "^18",
     "react-i18next": "^15.0.0",
     "simplex-noise": "^4.0.1",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.4.0",
+    "three": "^0.167.1",
+    "three-globe": "^2.31.1"
   },
   "devDependencies": {
     "@types/node": "^20",

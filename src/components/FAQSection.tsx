@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import AccordionList from "./AccordianList";
 import { useTranslation } from "react-i18next";
 
-const Accordian = () => {
+const FAQSection = () => {
   const [client, setClient] = useState(false);
   const { t } = useTranslation("common");
 
@@ -61,4 +61,4 @@ const Accordian = () => {
   );
 };
 
-export default Accordian;
+export default FAQSection;

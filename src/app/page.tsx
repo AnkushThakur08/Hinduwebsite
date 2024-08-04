@@ -1,8 +1,8 @@
-import Accordian from "@/components/Accordian";
+import FAQSection from "@/components/FAQSection";
 import FeaturedGuruJi from "@/components/FeaturedGuruji";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
-import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import GuruJiTestimonials from "@/components/TestimonialCards";
 // import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -12,8 +12,8 @@ export default function Home() {
       <HeroSection />
       <FeaturedGuruJi />
       <WhyChooseUs />
-      <Accordian />
-      <MusicSchoolTestimonials />
+      <FAQSection />
+      <GuruJiTestimonials />
       {/* <UpcomingWebinars /> */}
       <Footer />
     </main>
