@@ -8,14 +8,14 @@ import GuruJiTestimonials from "@/components/TestimonialCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import SubFeaturedContent from "@/components/SubFeaturedContent";
 
-const NarayanNagbaliPuja = () => {
+const PitraDoshPuja = () => {
   // Background Boxes
   const words = [
     {
-      text: "Narayan",
+      text: "Pitra",
     },
     {
-      text: "Nagabali",
+      text: "Dosh",
     },
     {
       text: "Puja",
@@ -27,58 +27,61 @@ const NarayanNagbaliPuja = () => {
       text: "Ancestral",
     },
     {
-      text: "Peace",
+      text: "Curse",
       className: "text-orange-500 dark:text-orange-500",
     },
     {
-      text: "&",
+      text: "Alleviation ",
       className: "text-orange-500 dark:text-orange-500",
     },
     {
-      text: "Prosperity",
+      text: "Ritual",
       className: "text-orange-500 dark:text-orange-500",
     },
   ];
 
   // FeaturedContent
-  const header_title = "narayan_nagbali_puja";
-  const header_info = "narayan_nagbali_info";
-  const img_url = "/courses/narayan.webp";
-  const img_alt = "naryan-nagbali";
-  const description = "narayan_nagbali_description";
+  const header_title = "pitra_dosh_puja";
+  const header_info = "pitra_dosh_info";
+  const img_url = "/courses/pitra-dosh-puja.webp";
+  const img_alt = "pitra-dosh-puja";
+  const description = "pitra_dosh_description";
 
   // SubFeaturedContent
-  const sub_header_title = "narayan_nagbali_benefits";
+  const sub_header_title = "pitra_dosh_types";
   const featuredCard = [
     {
-      title: "Ancestral Peace",
+      title: "Narayan Nagbali Puja",
       description:
-        "Helps in providing peace and liberation to the souls of ancestors who died unnatural deaths, ensuring their blessings for the family.",
+        "This puja is performed to seek the blessings of Lord Narayan and Nag Devta. It is believed to remove the negative effects of pitra dosh caused by the killing of snakes or other reptiles",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Removal of Doshas",
-      description: "Mitigates the effects of Pitru Dosha and Naga Dosha, leading to a more harmonious and prosperous life",
-      slug: "",
-      isFeatured: true,
-    },
-    {
-      title: "Health and Well-being",
+      title: "Tri-Pindi Shradh Puja",
       description:
-        "Alleviates health issues and other problems caused by the negative influences of ancestral curses and serpent-related doshas",
+        "This puja is performed to offer food and water to the ancestors and seek their blessings. It is believed to help the ancestors attain a higher state of consciousness and free them from any negative karma.",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Spiritual Growth",
-      description: "Enhances spiritual growth and fosters a sense of inner peace and fulfillment",
+      title: "Kalsarpa Shanti Puja",
+      description:
+        "This puja is performed to reduce the negative effects of the Kalsarpa Dosha, which is believed to be caused by a specific planetary alignment at the time of a person’s birth.",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Overall Prosperity",
-      description: "Brings overall prosperity, harmony, and happiness to the family by removing obstacles and negative energies",
+      title: "Pitru Paksha Puja",
+      description:
+        "This puja is performed during the Pitru Paksha period, which is a 16-day period of the Hindu lunar calendar dedicated to the ancestors. It is believed to help the ancestors attain moksha or liberation.",
+      slug: "",
+      isFeatured: true,
+    },
+    {
+      title: "Mahalaya Amavasya Puja",
+      description:
+        "This puja is performed on the new moon day of the Hindu month of Ashwin to honor the ancestors and seek their blessings.",
       slug: "",
       isFeatured: true,
     },
@@ -104,4 +107,4 @@ const NarayanNagbaliPuja = () => {
   );
 };
 
-export default NarayanNagbaliPuja;
+export default PitraDoshPuja;

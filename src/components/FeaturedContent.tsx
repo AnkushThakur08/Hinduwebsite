@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
 import Image from "next/image";
-import UpcomingWebinars from "./UpcomingWebinars";
 
 interface IFeaturedContentProps {
   header_title: string;
@@ -11,17 +10,9 @@ interface IFeaturedContentProps {
   img_url: string;
   img_alt: string;
   description: string;
-  sub_header_title: string;
 }
 
-const FeaturedContent: React.FC<IFeaturedContentProps> = ({
-  header_title,
-  header_info,
-  img_url,
-  img_alt,
-  description,
-  sub_header_title,
-}) => {
+const FeaturedContent: React.FC<IFeaturedContentProps> = ({ header_title, header_info, img_url, img_alt, description }) => {
   const [client, setClient] = useState(false);
   const { t } = useTranslation("common");
 
@@ -42,9 +33,6 @@ const FeaturedContent: React.FC<IFeaturedContentProps> = ({
         </div>
         <div className="text-black">{t(description)}</div>
       </div>
-
-      <Header title={t(sub_header_title)} />
-      <UpcomingWebinars />
     </div>
   );
 };
