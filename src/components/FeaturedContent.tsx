@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
 import Image from "next/image";
+import CallMeButton from "./Button";
 
 interface IFeaturedContentProps {
   header_title: string;
@@ -25,7 +26,7 @@ const FeaturedContent: React.FC<IFeaturedContentProps> = ({ header_title, header
   }
 
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-white text-center">
       <Header title={t(header_title)} info={t(header_info)} />
       <div className="flex justify-between items-center gap-20 p-24">
         <div>
@@ -33,6 +34,8 @@ const FeaturedContent: React.FC<IFeaturedContentProps> = ({ header_title, header
         </div>
         <div className="text-black">{t(description)}</div>
       </div>
+
+      <CallMeButton />
     </div>
   );
 };
