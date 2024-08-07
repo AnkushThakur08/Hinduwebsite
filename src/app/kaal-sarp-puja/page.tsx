@@ -37,60 +37,60 @@ const KaalSarpPuja = () => {
   ];
 
   // FeaturedContent
-  const header_title = "featured_content_title";
-  const header_info = "featured_content_info";
+  const header_title = "kaal_sarp_dosh";
+  const header_info = "kaal_sarp_info";
   const img_url = "/courses/pandit.webp";
   const img_alt = "kaal-sarp-dosh";
-  const description = "featured_content_description";
+  const description = "kaal_sarp_description";
 
   // SubFeaturedContent
-  const sub_header_title = "sub_feature_contain_title";
+  const sub_header_title = "kaal_sarp_effects";
   const featuredCard = [
     {
-      title: "Health problems",
-      description: "People with Kaal Sarp Yoga may suffer from various health issues like headaches, stomach problems, and heart diseases.",
+      title: "kaal_sarp_effect_title_1",
+      description: "kaal_sarp_effect_description_1",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Financial issues",
-      description: "Financial instability and struggles are common effects of Kaal Sarp Yoga",
+      title: "kaal_sarp_effect_title_2",
+      description: "kaal_sarp_effect_description_2",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Relationship troubles",
-      description: "Kaal Sarp Yoga can cause relationship problems like misunderstandings, breakups, and divorce",
+      title: "kaal_sarp_effect_title_3",
+      description: "kaal_sarp_effect_description_3",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Delayed marriage",
-      description: "People with Kaal Sarp Yoga may experience delays in marriage or problems in finding a suitable partner",
+      title: "kaal_sarp_effect_title_4",
+      description: "kaal_sarp_effect_description_4",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Career obstacles",
-      description: "This yoga can cause obstacles in career growth, job stability, and professional success",
+      title: "kaal_sarp_effect_title_5",
+      description: "kaal_sarp_effect_description_5",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Mental stress",
-      description: "People with Kaal Sarp Yoga may experience anxiety, depression, and other mental health issues",
+      title: "kaal_sarp_effect_title_6",
+      description: "kaal_sarp_effect_description_6",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Spiritual hindrances",
-      description: "This yoga can cause hindrances in spiritual growth and progress",
+      title: "kaal_sarp_effect_title_7",
+      description: "kaal_sarp_effect_description_7",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Sudden and unexpected events",
-      description: "People with Kaal Sarp Yoga may experience sudden and unexpected events like accidents, thefts, and losses",
+      title: "kaal_sarp_effect_title_8",
+      description: "kaal_sarp_effect_description_8",
       slug: "",
       isFeatured: true,
     },

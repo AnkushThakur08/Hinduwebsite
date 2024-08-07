@@ -37,8 +37,8 @@ const SubFeaturedContent: React.FC<ISubFeaturedContentProps> = ({ sub_header_tit
         <div className="mt-10">
           <HoverEffect
             items={featuredCard.map((card) => ({
-              title: card.title,
-              description: card.description,
+              title: t(card.title),
+              description: t(card.description),
               link: "/",
             }))}
           />
