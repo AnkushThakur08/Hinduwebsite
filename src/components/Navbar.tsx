@@ -30,8 +30,8 @@ function Navbar({ className }: { className?: string }) {
               <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/narayan-nagbali-puja">Narayan Nagbali Puja</HoveredLink>
                 <HoveredLink href="/pitra-dosh-puja">Pitra Dosh Puja</HoveredLink>
-                <HoveredLink href="/courses">Mahamrutunjay Jaap Puja</HoveredLink>
-                <HoveredLink href="/courses">Rudrabhishek Puja</HoveredLink>
+                <HoveredLink href="/maha-mrityunjaya-puja">Mahamrutunjay Jaap Puja</HoveredLink>
+                <HoveredLink href="/rudrabhishek-puja">Rudrabhishek Puja</HoveredLink>
               </div>
             </MenuItem>
 
