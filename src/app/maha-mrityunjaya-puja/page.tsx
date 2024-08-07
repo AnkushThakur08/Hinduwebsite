@@ -54,15 +54,14 @@ const MahaMrityunjayaPuja = () => {
   const sub_header_title = "maha_mrityunjaya_benefits";
   const featuredCard = [
     {
-      title: "Health and Longevity",
-      description:
-        "The primary goal is to seek divine protection from untimely death and ensure good health and long life. It is recommended for those suffering from severe illnesses or facing life-threatening situations",
+      title: "maha_mrityunjaya_title_1",
+      description:"maha_mrityunjaya_description_1",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Spiritual Upliftment",
-      description: "The ritual helps devotees overcome fears, anxieties, and negative energies, promoting spiritual growth and strength.",
+      title: "maha_mrityunjaya_title_2",
+      description: "maha_mrityunjaya_description_2",
       slug: "",
       isFeatured: true,
     },
@@ -73,16 +72,14 @@ const MahaMrityunjayaPuja = () => {
       isFeatured: true,
     },
     {
-      title: "Family and Community",
-      description:
-        "It is often performed for the well-being of the entire family or community, invoking blessings for peace, prosperity, and harmony",
+      title: "maha_mrityunjaya_title_3",
+      description: "maha_mrityunjaya_description_3",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Mental and emotional well-being",
-      description:
-        "The mantra is believed to have a calming and soothing effect on the mind and can help reduce stress, anxiety, and depression",
+      title: "maha_mrityunjaya_title_4",
+      description: "maha_mrityunjaya_description_4",
       slug: "",
       isFeatured: true,
     },
