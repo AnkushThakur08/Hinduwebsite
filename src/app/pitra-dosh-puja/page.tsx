@@ -51,37 +51,32 @@ const PitraDoshPuja = () => {
   const sub_header_title = "pitra_dosh_types";
   const featuredCard = [
     {
-      title: "Narayan Nagbali Puja",
-      description:
-        "This puja is performed to seek the blessings of Lord Narayan and Nag Devta. It is believed to remove the negative effects of pitra dosh caused by the killing of snakes or other reptiles",
+      title: "pitra_dosh_type_1_title",
+      description: "pitra_dosh_type_1_description",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Tri-Pindi Shradh Puja",
-      description:
-        "This puja is performed to offer food and water to the ancestors and seek their blessings. It is believed to help the ancestors attain a higher state of consciousness and free them from any negative karma.",
+      title: "pitra_dosh_type_2_title",
+      description: "pitra_dosh_type_2_description",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Kalsarpa Shanti Puja",
-      description:
-        "This puja is performed to reduce the negative effects of the Kalsarpa Dosha, which is believed to be caused by a specific planetary alignment at the time of a person’s birth.",
+      title: "pitra_dosh_type_3_title",
+      description: "pitra_dosh_type_3_description",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Pitru Paksha Puja",
-      description:
-        "This puja is performed during the Pitru Paksha period, which is a 16-day period of the Hindu lunar calendar dedicated to the ancestors. It is believed to help the ancestors attain moksha or liberation.",
+      title: "pitra_dosh_type_4_title",
+      description: "pitra_dosh_type_4_description",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Mahalaya Amavasya Puja",
-      description:
-        "This puja is performed on the new moon day of the Hindu month of Ashwin to honor the ancestors and seek their blessings.",
+      title: "pitra_dosh_type_5_title",
+      description: "pitra_dosh_type_5_description",
       slug: "",
       isFeatured: true,
     },

@@ -51,34 +51,32 @@ const NarayanNagbaliPuja = () => {
   const sub_header_title = "narayan_nagbali_benefits";
   const featuredCard = [
     {
-      title: "Ancestral Peace",
-      description:
-        "Helps in providing peace and liberation to the souls of ancestors who died unnatural deaths, ensuring their blessings for the family.",
+      title: "narayan_nagbali_benefit_title_1",
+      description:"narayan_nagbali_benefit_description_1",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Removal of Doshas",
-      description: "Mitigates the effects of Pitru Dosha and Naga Dosha, leading to a more harmonious and prosperous life",
+      title: "narayan_nagbali_benefit_title_2",
+      description: "narayan_nagbali_benefit_description_2",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Health and Well-being",
-      description:
-        "Alleviates health issues and other problems caused by the negative influences of ancestral curses and serpent-related doshas",
+      title: "narayan_nagbali_benefit_title_3",
+      description:"narayan_nagbali_benefit_description_3",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Spiritual Growth",
-      description: "Enhances spiritual growth and fosters a sense of inner peace and fulfillment",
+      title: "narayan_nagbali_benefit_title_4",
+      description: "narayan_nagbali_benefit_description_4",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Overall Prosperity",
-      description: "Brings overall prosperity, harmony, and happiness to the family by removing obstacles and negative energies",
+      title: "narayan_nagbali_benefit_title_5",
+      description: "narayan_nagbali_benefit_description_5",
       slug: "",
       isFeatured: true,
     },
