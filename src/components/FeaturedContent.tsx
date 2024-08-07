@@ -28,9 +28,9 @@ const FeaturedContent: React.FC<IFeaturedContentProps> = ({ header_title, header
   return (
     <div className="py-12 bg-white text-center">
       <Header title={t(header_title)} info={t(header_info)} />
-      <div className="flex justify-between items-center gap-20 p-24">
+      <div className="flex justify-between items-center gap-20 p-6 lg:p-24 flex-col lg:flex-row">
         <div>
-          <Image className="max-w-fit rounded-2xl" src={img_url} alt={img_alt} width={400} height={450} />
+          <Image className="lg:max-w-fit rounded-2xl lg:mx-6 lg:mx-0" src={img_url} alt={img_alt} width={400} height={450} />
         </div>
         <div className="text-black">{t(description)}</div>
       </div>

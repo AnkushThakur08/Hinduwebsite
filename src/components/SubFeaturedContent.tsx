@@ -29,12 +29,12 @@ const SubFeaturedContent: React.FC<ISubFeaturedContentProps> = ({ sub_header_tit
   }
 
   return (
-    <div className="p-12 bg-white">
+    <div className="lg:p-12 bg-white">
       <Header title={t(sub_header_title)} />
       <div className="max-w-[108rem] mx-auto px-4 sm:px-6">
         <div className="text-center"></div>
 
-        <div className="mt-10">
+        <div className="lg:mt-10">
           <HoverEffect
             items={featuredCard.map((card) => ({
               title: t(card.title),

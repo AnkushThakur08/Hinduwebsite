@@ -120,7 +120,7 @@ const KaalSarpPuja = () => {
       <BackgroundBoxes words={words} />
       <div className="m-6">
         <Header title="Contact US" />
-        <div className="grid grid-cols-2 items-center mx-6">
+        <div className="grid grid-rows-2 lg:grid-cols-2 items-center mx-6">
           <WhiteGlobe />
           <form onSubmit={handleSubmit} className="space-y-4 mt-4">
             <input

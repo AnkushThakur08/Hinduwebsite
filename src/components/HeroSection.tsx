@@ -27,7 +27,7 @@ function HeroSection() {
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
           {t("temple_name")}
         </motion.p>
-        <p className="mt-4 font-normal text-base md:text-lg text-white max-w-lg">{t("temple_description")}.</p>
+        <p className="mt-4 font-normal text-base md:text-lg text-white max-w-lg px-12">{t("temple_description")}.</p>
         <CallMeButton />
       </motion.div>
     </ImagesSlider>
