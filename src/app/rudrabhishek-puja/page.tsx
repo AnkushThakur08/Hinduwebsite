@@ -55,37 +55,32 @@ const PitraDoshPuja = () => {
   const sub_header_title = "rudra_abhishek_benefits";
   const featuredCard = [
     {
-      title: "Spiritual Upliftment",
-      description:
-        "The puja helps in purifying the mind and soul, removing negative energies, and fostering spiritual growth. It instills a sense of peace, calm, and inner strength",
+      title: "rudra_abhishek_benefit_title_1",
+      description: "rudra_abhishek_benefit_description_1",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Health and Well-being",
-      description:
-        "The mantras and rituals are said to have healing properties, promoting good health and overall well-being. Many devotees perform this puja for loved ones suffering from chronic diseases or severe health conditions.",
+      title: "rudra_abhishek_benefit_title_2",
+      description: "rudra_abhishek_benefit_description_2",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Prosperity and Success",
-      description:
-        "Performing the Rudra Abhishek Puja is believed to bring prosperity, success, and overall well-being to the devotees and their families",
+      title: "rudra_abhishek_benefit_title_3",
+      description: "rudra_abhishek_benefit_description_3",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Removal of Obstacles",
-      description:
-        "The puja is considered highly effective in removing obstacles and negative influences, ensuring a smooth and successful journey in life",
+      title: "rudra_abhishek_benefit_title_4",
+      description: "rudra_abhishek_benefit_description_4",
       slug: "",
       isFeatured: true,
     },
     {
-      title: "Family and Community Benefits",
-      description:
-        "Performing the puja for the entire family promotes unity, peace, and harmony among family members.When performed collectively, the puja can bring positive effects to the community, fostering collective well-being and prosperity",
+      title: "rudra_abhishek_benefit_title_5",
+      description: "rudra_abhishek_benefit_description_5",
       slug: "",
       isFeatured: true,
     },
