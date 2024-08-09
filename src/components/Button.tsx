@@ -3,7 +3,11 @@ import React from "react";
 import { Button } from "@/components/ui/moving-border";
 import { useTranslation } from "react-i18next";
 
-const CallMeButton = () => {
+interface ICallMeButtonProps {
+  isNumberVisible: boolean;
+}
+
+const CallMeButton: React.FC<ICallMeButtonProps> = ({isNumberVisible}) => {
   const { t } = useTranslation("common");
 
   return (
@@ -11,7 +15,7 @@ const CallMeButton = () => {
       <Link href="tel:+1234567890">
         <Button borderRadius="1.75rem" className="bg-white dark:bg-orange-500 text-black dark:text-white border-transparent">
           <Link href="tel:+1234567890" className="bg-white dark:bg-orange-500 text-black dark:text-white">
-            {t("call_me_button")}
+           {isNumberVisible ? '+91 86511 16000' : t("call_me_button") } 
           </Link>
         </Button>
       </Link>

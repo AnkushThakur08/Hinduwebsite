@@ -5,7 +5,7 @@ import FeaturedContent from "@/components/FeaturedContent";
 import FeaturedGuruJi from "@/components/FeaturedGuruji";
 import Footer from "@/components/Footer";
 import GuruJiTestimonials from "@/components/TestimonialCards";
-import WhyChooseUs from "@/components/WhyChooseUs";
+import WhyChooseUs from "@/components/OurServices";
 import SubFeaturedContent from "@/components/SubFeaturedContent";
 
 const PitraDoshPuja = () => {

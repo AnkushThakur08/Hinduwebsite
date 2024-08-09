@@ -4,6 +4,7 @@ import panditData from "@/data/panditData.json";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
+import CallMeButton from "@/components/Button";
 interface IPandit {
   id: number;
   title: string;
@@ -30,7 +31,7 @@ const FeaturedGuruJi = () => {
   }
 
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-white text-center">
       <Header title="featured_section_title" info="featured_section_description" />
       <div className="mx-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
@@ -49,6 +50,7 @@ const FeaturedGuruJi = () => {
           ))}
         </div>
       </div>
+      <CallMeButton isNumberVisible={true} />
     </div>
   );
 };

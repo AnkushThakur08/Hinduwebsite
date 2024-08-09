@@ -30,6 +30,20 @@
     },
     {
       "id": 5,
+      "title": "featured_card_title_5",
+      "description": "featured_card_description_5",
+      "isFeatured": true,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 6,
+      "title": "featured_card_title_6",
+      "description": "featured_card_description_6",
+      "isFeatured": true,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 7,
       "title": "Jazz Improvisation",
       "slug": "jazz-improvisation",
       "description": "Learn the art of jazz improvisation with this course designed for all levels.",
@@ -39,7 +53,7 @@
       "image": "/courses/jazz.jpg"
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "Music Production Fundamentals",
       "slug": "music-production-fundamentals",
       "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
@@ -49,7 +63,7 @@
       "image": "/courses/music-prod.jpg"
     },
     {
-      "id": 7,
+      "id": 9,
       "title": "Songwriting Essentials",
       "slug": "songwriting-essentials",
       "description": "Learn the essentials of songwriting to express your musical creativity.",
@@ -59,7 +73,7 @@
       "image": "/courses/song-writing.jpg"
     },
     {
-      "id": 8,
+      "id": 10,
       "title": "Electronic Music Production",
       "slug": "electronic-music-production",
       "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
@@ -69,7 +83,7 @@
       "image": "/courses/music-prod.jpg"
     },
     {
-      "id": 9,
+      "id": 11,
       "title": "Classical Music History",
       "slug": "classical-music-history",
       "description": "Explore the rich history of classical music from its origins to the present day.",
@@ -79,7 +93,7 @@
       "image": "/courses/classical-music.jpg"
     },
     {
-      "id": 10,
+      "id": 12,
       "title": "Blues Guitar Techniques",
       "slug": "blues-guitar-techniques",
       "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",

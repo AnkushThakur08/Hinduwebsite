@@ -33,9 +33,14 @@ const poojaListContent = [
     description: "our_service_description_6",
     src: "/courses/image-3.jpg",
   },
+  {
+    title: "our_service_title_7",
+    description: "our_service_description_7",
+    src: "/courses/mangal-dosh.jpeg",
+  },
 ];
 
-function WhyChooseUs() {
+function OurServices() {
   const [client, setClient] = useState(false);
 
   useEffect(() => {
@@ -52,4 +57,4 @@ function WhyChooseUs() {
   );
 }
 
-export default WhyChooseUs;
+export default OurServices;
